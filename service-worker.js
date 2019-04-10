@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/api-unsplash-redux/precache-manifest.8995b1e7cce24ba7af6aa50ea89dc3c1.js"
+  "/API-Unsplash-Redux/precache-manifest.7318d5770ed423bf7778699a61e56142.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/api-unsplash-redux/index.html", {
+workbox.routing.registerNavigationRoute("/API-Unsplash-Redux/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
